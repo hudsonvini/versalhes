@@ -1,13 +1,65 @@
 .container {
     display: flex;
-    height: 500px;
+    justify-content: space-between;
+    position: relative;
+    height: 480px;
     width: 100%;
     background-color: #1996DA;
-    color: black;
+    margin: 0 auto;
     margin-top: 120px;
     border-radius: 80px;
+    max-width: 1600px;
+    box-shadow: 0px 20px 40px #00000015;
 }
 
 .textArea {
-    width: 400px;
+    padding: 80px 0px 0px 120px;
+    width: 50%;
+}
+
+.textArea h1 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.textArea h1 b {
+    color: #033E5F;
+}
+
+.textArea p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.textArea a {
+    color: #1996DA;
+    font-weight: 600;
+    padding: 14px 36px;
+    background-color: #fff;
+    border-radius: 40px;
+    margin-top: 34px;
+}
+
+.centralButton {
+    position: absolute;
+    bottom: 20px;
+    left: calc(50% - 80px);
+    color: #1996DA;
+    font-weight: 600;
+    padding: 14px 36px;
+    background-color: #fff;
+    border-radius: 40px;
+}
+
+.imageArea {
+    position: relative;
+    width: 50%;
+}
+
+.imageArea img {
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 100px);
 }
