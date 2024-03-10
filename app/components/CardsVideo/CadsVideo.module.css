@@ -1,0 +1,94 @@
+.cardVideo {
+    display: flex;
+    margin-right: 20px;
+    height: 380px;
+}
+
+/* Video Area */
+.videoArea {
+    position: relative;
+    width: 350px;
+    height: 380px;
+}
+
+.videoArea img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    transition: .2s;
+}
+
+.cardVideo:hover .videoArea img {
+    border-radius: 20px 0px 0px 20px;
+}
+
+.buttonPlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: #fff;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    left: calc(50% - 40px);
+    top: calc(50% - 40px);
+    border: none;
+}
+
+/* Side Hover Area */
+.sideHoverArea {
+    display: flex;
+    opacity: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 0px;
+    background-color: #F9FAFF;
+    border: 1px solid #E6E7ED;
+    transition: .5s;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.cardVideo:hover .sideHoverArea {
+    opacity: 1;
+    width: 380px;
+    height: 100%;
+    padding: 20px;
+}
+
+.sideHoverArea h3 {
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.sideHoverArea h3::after {
+    content: '';
+    position: absolute;
+    left: -20px;
+    top: calc(50% - 5px);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #1A96DA;
+}
+
+.sideHoverArea p {
+    margin-top: 10px;
+    font-weight: 500;
+    color: #3A3A3A;
+}
+
+.sideHoverArea a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #0B3248;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 40px;
+    padding: 18px 32px;
+}

@@ -9,10 +9,13 @@ export default function ContainerCards() {
             <span className={style.sectionSub}>Imóveis</span>
             <h2 className={style.sectionTile}>nossos modelos</h2>
 
-            <CardsVideo />
-            <CardsVideo />
-            <CardsVideo />
-            <CardsVideo />
+            <div className={style.containerCards}>
+                <CardsVideo />
+                <CardsVideo />
+                <CardsVideo />
+                <CardsVideo />
+                <CardsVideo />
+            </div>
 
         </section>
     )

@@ -7,10 +7,16 @@
     font-size: 32px;
     color: #1A96DA;
     font-weight: 600;
+    margin-bottom: 20px;
 }
 
 .sectionSub {
     font-size: 20px;
     color: #0B3248;
     font-weight: 600;
+}
+
+.containerCards {
+    display: flex;
+    margin-bottom: 200px;
 }
