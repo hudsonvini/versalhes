@@ -29,8 +29,9 @@
 
 .textArea p {
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 34px;
     font-weight: 600;
+    color: #fff;
 }
 
 .textArea a {
@@ -39,7 +40,6 @@
     padding: 14px 36px;
     background-color: #fff;
     border-radius: 40px;
-    margin-top: 34px;
 }
 
 .centralButton {
