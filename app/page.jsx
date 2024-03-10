@@ -8,11 +8,14 @@ export const mont_Alt = Montserrat_Alternates({
 
 // Componets
 import InitialBanner from "./components/InitialBannerComponent/InitialBanner";
+import ContainerCards from "./components/ContainerCards/ContainerCards";
 
 export default function Home() {
   return (
     <main className={mont_Alt.className}>
         <InitialBanner />
+
+        <ContainerCards />
     </main>
   );
 }

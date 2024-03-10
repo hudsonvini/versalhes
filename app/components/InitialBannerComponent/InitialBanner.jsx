@@ -9,9 +9,9 @@ export default function InitialBanner() {
                     <br />
                     <b>Próximo lar</b>
                 </h1>
-                <p>Conectamos vocÊ a imoveis de alta quqalidade 
+                <p>Conectamos vocÊ a imoveis de alta 
                     <br />
-                    em licalizações provilefiadas</p>
+                    quqalidade em licalizações provilefiadas</p>
                 <a href="">ver mais</a>
 
                 <svg width="595" height="319" viewBox="0 0 595 319" fill="none" xmlns="http://www.w3.org/2000/svg">

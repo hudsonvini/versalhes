@@ -1,0 +1,16 @@
+.container {
+    padding-left: 160px;
+    margin-top: 60px;
+}
+
+.sectionTile {
+    font-size: 32px;
+    color: #1A96DA;
+    font-weight: 600;
+}
+
+.sectionSub {
+    font-size: 20px;
+    color: #0B3248;
+    font-weight: 600;
+}
