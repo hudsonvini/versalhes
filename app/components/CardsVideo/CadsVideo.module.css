@@ -37,6 +37,7 @@
     bottom: calc(50% - 40px);
     border: none;
     transition: .5s;
+    cursor: pointer;
 }
 
 .cardVideo:hover .buttonPlay {
@@ -114,8 +115,13 @@
     justify-content: space-between;
     width: 100%;
     background-color: #0B3248;
-    font-weight: 600;
+    font-weight: 500;
     color: #fff;
     border-radius: 40px;
     padding: 18px 32px;
+    transition: .3s;
+}
+
+.sideHoverArea a:hover {
+    background-color: #1A96DA;
 }
