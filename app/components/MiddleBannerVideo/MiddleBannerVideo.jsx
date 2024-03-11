@@ -1,4 +1,4 @@
-import style from './MiddlebannerVideo.module.css'
+import style from './MiddleBannerVideo.module.css'
 
 export default function MiddlebannerVideo() {
     return(
@@ -8,9 +8,24 @@ export default function MiddlebannerVideo() {
 
             {/* Nubers Area */}
             <div className={style.numbersArea}>
-
+                {/* Column Numer */}
+                <span className={style.columnNumber}>
+                    <h3>10+</h3>
+                    <p>Projetos</p>
+                </span>
+                {/* Column Numer */}
+                <span className={style.columnNumber}>
+                    <h3>25+</h3>
+                    <p>Clientes</p>
+                </span>
+                {/* Column Numer */}
+                <span className={style.columnNumber}>
+                    <h3>25+</h3>
+                    <p>Clientes</p>
+                </span>
             </div>
 
+            {/* Middle Area */}
             <h2>garanta agora o desconto no
                 <br />
                 investimento da sua vida!
