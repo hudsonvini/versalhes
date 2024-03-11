@@ -9,6 +9,7 @@ export const mont_Alt = Montserrat_Alternates({
 // Componets
 import InitialBanner from "./components/InitialBannerComponent/InitialBanner";
 import ContainerCards from "./components/ContainerCards/ContainerCards";
+import MiddlebannerVideo from "./components/MiddleBannerVideo/MiddleBannerVideo";
 
 export default function Home() {
   return (
@@ -16,6 +17,8 @@ export default function Home() {
         <InitialBanner />
 
         <ContainerCards />
+
+        <MiddlebannerVideo />
     </main>
   );
 }
