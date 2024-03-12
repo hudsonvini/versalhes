@@ -1,0 +1,120 @@
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.cardTestemonial {
+    display: flex;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+/* Area Image */
+.areaImage {
+    position: relative;
+    width: 45%;
+}
+
+.areaImage img {
+    width: 100%;
+    border-radius: 40px;
+}
+
+.buttonMoreInformation {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: none;
+}
+
+.cardTestemonial.secondType .buttonMoreInformation {
+    left: inherit;
+    right: 30px;
+}
+
+.date {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #1A96DA;
+    padding: 10px 18px;
+}
+
+.cardTestemonial.secondType .date {
+    right: inherit;
+    left: 30px;
+}
+
+/* Area Informaion Card */
+.areaInformationCard {
+    position: relative;
+    width: 55%;
+    padding: 20px;
+}
+
+.areaInformationCard::after {
+    content: '';
+    position: absolute;
+    left: -20%;
+    top: -5%;
+    height: 110%;
+    width: 120%;
+    background-color: #F9FAFF;
+    border-radius: 40px;
+    z-index: -1;
+}
+
+.cardTestemonial.secondType .areaInformationCard::after {
+    left: inherit;
+    right: -20%;
+}
+
+.topic:not(:first-child) {
+    margin-top: 20px;
+}
+
+.topicTitle {
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 18px;
+}
+
+.topicTitle::after {
+    content: '';
+    position: absolute;
+    left: -18px;
+    top: calc(50% - 4px);
+    width: 8px;
+    height: 8px;
+    border-radius: 50px;
+    background-color: #1A96DA;
+}
+
+.topicText {
+    color: #3A3A3A;
+    margin-top: 12px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.galleryTopic {
+    display: flex;
+    margin-top: 20px;
+}
+
+.galleryTopic img {
+    height: 120px;
+    width: 120px;
+    margin-right: 10px;
+    border-radius: 10px;
+    object-fit: cover;
+}
